@@ -1,4 +1,22 @@
-# SysPort
-Project carried out as part of my engineering training at ENSTA Bretagne.
 
-I had to realize a program able to make facial recognition on streaming videos (in live) and to display the information stored in a database of identified persons. The goal was to write this information in a .json file to be able to use it via an Android mobile application (part realized by another member of my team).
+### Installation Python Libraries:
+
+- Tensorflow (1.4.0)
+- Scipy (0.17.0)
+- Scikit-learn (0.19.1)
+- Opencv (2.4.9.1)
+
+
+
+### How it works
+
+run in this order:
+
+'data_preprocess.py' 
+'train_main.py' 
+'identify_face_image.py' / 'identify_face_video'
+ 
+ if you want the confusion matrix and a full rapport run :
+ 'testIA.py'
+ 
+ 
